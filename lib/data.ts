@@ -1,11 +1,12 @@
 import React from "react";
 
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import babyBot from "@/public/babyBot.png";
+import cursesio from "@/public/cursesio.png";
+import lms from "@/public/lms.png";
+import scoopy from "@/public/scoopy.png";
 
 export const links = [
   {
@@ -59,8 +60,9 @@ export const projectsData = [
     description:
       "-Online Learning Platform for Web, App, and Machine Learning Courses",
     tags: ["React", "ReduxToolkit", "MongoDB", "Chakraui", "Express"],
-    imageUrl: corpcommentImg,
+    imageUrl: cursesio,
     github: "https://github.com/abdul403/courseBundler",
+    project: "",
   },
   {
     title: "babyBot",
@@ -74,16 +76,18 @@ export const projectsData = [
       "Zustand",
       "planetscale",
     ],
-    imageUrl: rmtdevImg,
+    imageUrl: babyBot,
     github: "https://github.com/abdul403/botAI",
+    project: "",
   },
   {
     title: "LMS",
     description:
       "LMS platform which provides trending courses to access free of cost with best quality content for curious learners",
     tags: ["React", "Next.js", "SQL", "Tailwind", "prisma", "Typescript"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: lms,
     github: "",
+    project: "",
   },
   {
     title: "Scooby",
@@ -98,8 +102,9 @@ export const projectsData = [
       "Typescript",
       "Socket.io",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: scoopy,
     github: "https://github.com/abdul403/team-message",
+    project: "https://team-message-production.up.railway.app",
   },
 ] as const;
 
