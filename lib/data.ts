@@ -1,8 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,52 +36,70 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "nullClass",
+    location: "Mumbai, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after completing training part. I immediately found a internship for web developer at nullClass.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Scrimba",
+    location: "Norway, Europe.(remote)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have completed 6 months react web developer position at scrimba. Build Real-Time web application",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "coursesio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "-Online Learning Platform for Web, App, and Machine Learning Courses",
+    tags: ["React", "ReduxToolkit", "MongoDB", "Chakraui", "Express"],
     imageUrl: corpcommentImg,
+    github: "https://github.com/abdul403/courseBundler",
   },
   {
-    title: "rmtDev",
+    title: "babyBot",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Next-Gen AI SaaS Plaƞorm with Advanced AI Tools, It has features like Text, Video, Audio and Image Generation",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Zustand",
+      "planetscale",
+    ],
     imageUrl: rmtdevImg,
+    github: "https://github.com/abdul403/botAI",
   },
   {
-    title: "Word Analytics",
+    title: "LMS",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "LMS platform which provides trending courses to access free of cost with best quality content for curious learners",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "prisma", "Typescript"],
     imageUrl: wordanalyticsImg,
+    github: "",
+  },
+  {
+    title: "Scooby",
+    description:
+      "Scooby is a platform which provides messaging, audio, video calls features to make work eassier with colleagues",
+    tags: [
+      "React",
+      "Next.js",
+      "SQL",
+      "Tailwind",
+      "prisma",
+      "Typescript",
+      "Socket.io",
+    ],
+    imageUrl: wordanalyticsImg,
+    github: "https://github.com/abdul403/team-message",
   },
 ] as const;
 
@@ -93,15 +112,10 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Github",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
